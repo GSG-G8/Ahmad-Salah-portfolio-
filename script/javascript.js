@@ -10,3 +10,11 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+
+const left=document.getElementsByClassName(corner);
+left.addEventListener("mouseover", function( event ) {   
+  
+  alert("dfsdf");
+  document.getElementsByid('left-nav').style.csstext("display:flex;")
+  
+})
