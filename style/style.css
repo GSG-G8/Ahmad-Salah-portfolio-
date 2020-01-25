@@ -1,0 +1,80 @@
+* {
+    margin: 0 auto;
+    font-size: 25%;
+    font-family: 'Karla';
+
+}
+main {
+    max-width: 95%;
+    margin-top: 8%;
+}
+main h1{
+    font-family: 'Crimson Text';
+    font-size: 6.2rem;
+    line-height: 10px;
+    opacity:60%;
+}
+main h2{
+    font-size: 8.2rem;
+    opacity:80%;
+    padding: 5%;
+    /* text-shadow: -.1px 0 blue, 0 .1px black, .9px 0 black, 0 -.1px black; */
+    margin-top: 10px;
+}
+.header{
+    font-family: "Crimson Text";
+    display: flex;
+  }
+
+nav {
+width: 80%;
+}
+.navbar{
+   text-decoration: none;
+}
+.navbar li{
+    display: inline;
+    padding: 15px;
+    color: black;
+    font-size: 5.4rem;
+    font-family: "Helvetica Neue";
+    opacity: 70%;
+}
+.navbar a{
+      text-decoration: none;
+}
+.navbar a:hover{
+    text-decoration: black underline;
+    cursor: pointer;
+    }
+
+#logo-img{
+    width: 150px;
+    height: 200px;
+    padding-top: 8px;
+    margin-left: -5px;
+    border-radius: 20%;
+    box-shadow: royalblue;
+}
+
+.service{
+    margin: 2%;
+    display: flex; 
+    max-width: 70%;  
+}
+.service div{
+
+}
+
+.service a{
+    font-size: 4.5rem;
+    text-decoration: none;
+    color: black;
+    opacity: 75%;
+    font-family: "Crimson Text";
+    line-height: 30px;
+
+}
+.service a:hover{
+    text-decoration:black underline;
+}
