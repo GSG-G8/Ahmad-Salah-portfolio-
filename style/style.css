@@ -49,8 +49,6 @@ width: 80%;
 
 #logo-img{
     margin-left: -40%;
- 
-    box-shadow: royalblue;
 }
 
 .service{
@@ -81,7 +79,8 @@ width: 80%;
     width: 10%;
     position: fixed;
     top: 35%;
-    
+    transition: all 0.3s ease;
+
 }
 .corner ul{
     margin-left: -50%;
