@@ -1,6 +1,6 @@
 
 var i = 0;
-var txt = 'A creative website and digital experience profiles.'
+var txt = 'A Creative website and Mobile Applications.'
 var speed = 20;
 typeWriter()
 function typeWriter() {
